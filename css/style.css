@@ -99,6 +99,14 @@ article div#callToAction button {
   position: relative;
   left: 510px;
   top: 350px;
+  transition: all .35s ease-in;
+}
+article div#callToAction button:hover {
+  background-color: #888;
+}
+
+article div#callToAction button:active {
+  background-color: #bbb;
 }
 
 footer {
